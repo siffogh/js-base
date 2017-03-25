@@ -74,15 +74,15 @@ function foo (z) {} // LHS: foo, z
 ```
 
 ### Compiling Function Scope
-<img src="https://github.com/siffogh/seif-gifs/raw/master/function-scope-code-snippet.png" height="200px">
+<img src="https://github.com/siffogh/seif-gifs/raw/master/function-code-snippet.png" height="200px">
 
 #### Compilation: looking for Declarations
-- declaration of var x at line 1 - Global Scope.
-- declaration of function foo at line 3 - Global Scope.
-- declaration of var y at line 4 - foo scope.
-- declaration of function boo - Global Scope.
-- declaration of var z - boo scope.
-- declaration of var a - boo scope.
+- declaration of var x at line 2 - Global Scope.
+- declaration of function foo at line 4 - Global Scope.
+- declaration of var y at line 5 - foo scope.
+- declaration of function boo at line 8 - Global Scope.
+- declaration of var z at line 8 - boo scope.
+- declaration of var a at line 9 - boo scope.
 
 #### Execution
 > We don't look for declarations anymore.

@@ -74,7 +74,7 @@ function foo (z) {} // LHS: foo, z
 ```
 
 ### Compiling Function Scope
-<img src="https://github.com/siffogh/seif-gifs/raw/master/function-scope-code-snippet.png" max-height="240px">
+<img src="https://github.com/siffogh/seif-gifs/raw/master/function-scope-code-snippet.png" max-height="180px">
 
 #### Compilation: looking for Declarations
 - declaration of var x at line 1 - Global Scope.

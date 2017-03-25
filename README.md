@@ -70,12 +70,11 @@ eg:-
 ```js
 var x = 10;  // LHS: x, RHS: 10
 var y = x; // LHS: y, RHS: x
-function foo (z) { // LHS: foo, z
-}
+function foo (z) {} // LHS: foo, z
 ```
 
 ### Compiling Function Scope
-<img src="https://github.com/siffogh/seif-gifs/raw/master/function-scope-code-snippet-1.png" max-height="250px">
+<img src="https://github.com/siffogh/seif-gifs/raw/master/function-scope-code-snippet.png" max-height="240px">
 
 #### Compilation: looking for Declarations
 - declaration of var x at line 1 - Global Scope.

@@ -11,9 +11,7 @@
 	- [ ] Lexical Scope
 	- [ ] Cheating Lexical Scope: eval
 	- [ ] IIFE Pattern
-	- [ ] IIFE Pattern Questions
 	- [ ] Block Scope in ES6
-	- [ ] Problems with the Let Keyword
 	- [ ] Dynamic Scope
 	- [ ] Hoisting
 	- [ ] this Keyword
@@ -23,7 +21,7 @@
 
 - [ ] Closures
 
-	- [ ] What are closures ?s
+	- [ ] Closures explained
 	- [ ] Closure Examples
 	- [ ] Module Patterns
 
@@ -108,11 +106,8 @@ function boo (z) {
 ### Lexical Scope
 ### Cheating Lexical Scope: eval
 ### IIFE Pattern
-### IIFE Pattern Questions
 ### Block Scope in ES6
-### Problems with the Let Keyword
 ### Dynamic Scope
-### Quiz: Scope
 ### Hoisting
 ### this Keyword
 ### Binding Confusion
@@ -121,7 +116,7 @@ function boo (z) {
 
 ## Closures
 
-### What are closures ?
+### Closures Explained
 ### Closure Examples
 ### Module Patterns
 

@@ -1,7 +1,7 @@
 # JavaScript Knowledge Base
 
 ## TODO
-- [] Scope
+- [ ] Scope
 
 - [x] Scope and the JavaScript Compiler
 - [ ] Compiling Function Scope

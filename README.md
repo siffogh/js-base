@@ -4,7 +4,7 @@
 - [ ] Scope
 
 	- [x] Scope and the JavaScript Compiler
-	- [ ] Compiling Function Scope
+	- [x] Compiling Function Scope
 	- [ ] Execution of Function Code
 	- [ ] Scope and Execution Example
 	- [ ] Function Declarations, Function Expressions, and Block Scope
@@ -63,7 +63,35 @@ The JS compiler.
 JavaScript is a compiled language. Though, it's not the same as how other languages (like C++, Java ... ) are compiled. It's not compiled into byte code or binary, the original source code is kept.
 It is not an **interpreted** language. An interpreted language is interpreted and executed line by line. However, in a compiled language, the compiler does an initial pass through the code and then one or more passes before executing it.
 
+### Some compiler terminology
+- ** LHS (Left Hand Side):** left hand side of an assignment.
+- ** RHS (You guess ...):** Any expression that is not an assignment.  
+eg:-  
+```js
+var x = 10;  // LHS: x, RHS: 10
+var y = x; // LHS: y, RHS: x
+function foo (z) { // LHS: foo, z
+}
+```
+
 ### Compiling Function Scope
+<img src="https://github.com/siffogh/seif-gifs/raw/master/function-scope-code-snippet-1.png" max-height="250px">
+
+#### Compilation: looking for Declarations
+- declaration of var x at line 1 - Global Scope.
+- declaration of function foo at line 3 - Global Scope.
+- declaration of var y at line 4 - foo scope.
+- declaration of function boo - Global Scope.
+- declaration of var z - boo scope.
+- declaration of var a - boo scope.
+
+#### Execution
+> We don't look for declarations anymore.
+
+- assign 10 to var x in global scope.
+- assign 10 to var y in foo scope.
+- assign z + 2 to a in boo scope.
+
 ### Execution of Function Code
 ### Scope and Execution Example
 ### Function Declarations, Function Expressions, and Block Scope

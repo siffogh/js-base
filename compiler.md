@@ -16,7 +16,7 @@ V8 is a **JavaScript engine**, written in C++. It has the following roles:
 Compilation happens :v:mainly:v: in 3 steps:
 - **Tokenizing/Lexing**: breaking up the code instructions into an array of meaningful words called tokens.
 - **Parsing**: taking the array of tokens and translating it into a tree of the grammatical structure of the program called *AST* (Abstract Syntax Tree).
-- ** Code-Generation**: turning the AST into executable machine code.
+- **Code-Generation**: turning the AST into executable machine code.
 
 #### When does compilation happen and what is the output?
 - V8 and and other modern compilers are fast for because of two factors:

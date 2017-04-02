@@ -1,5 +1,9 @@
 # JavaScript Knowledge Base
 
+## Table of Contents
+[About the JavaScript Compiler](/compiler.md)  
+[Scope](/scope.md)
+
 ## TODO
 - [x] About the JavaScript Compiler
 	- [x] About the V8 engine

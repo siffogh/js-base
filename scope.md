@@ -3,8 +3,8 @@
 JSBase will only focus on static/lexical scope.
 
 ### Some compiler terminology
-- ** LHS (Left Hand Side):** left hand side of an assignment.
-- ** RHS (You guess ...):** Any expression that is not an assignment.  
+- **LHS (Left Hand Side):** left hand side of an assignment.
+- **RHS (You guess ...):** Any expression that is not an assignment.  
 eg:-  
 ```js
 var x = 10;  // LHS: x, RHS: 10

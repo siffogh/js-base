@@ -2,7 +2,7 @@
 >**Notice** <br> There are two types of scopes: _dynamic scope_ and _lexical/static_ scope.
 JSBase will only focus on static/lexical scope.
 
-### :blue_book: Some compiler terminology
+### Some compiler terminology
 - ** LHS (Left Hand Side):** left hand side of an assignment.
 - ** RHS (You guess ...):** Any expression that is not an assignment.  
 eg:-  
@@ -12,7 +12,7 @@ var y = x; // LHS: y, RHS: x
 function foo (z) {} // LHS: foo, z
 ```
 
-### Scope Explained
+### Scope explained
 
 When the _Engine_ resolves an _LHS_ or _RHS_, the first question that he needs to resolve is: <br> **What is the scope of my _LHS/RHS_ ?** 🤔 In other words, where does my _LHS/RHS_ variable live and can be referred to.
 

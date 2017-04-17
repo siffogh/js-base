@@ -13,7 +13,7 @@
 - [ ] Scope
 	- [x] Scope and the JavaScript Compiler
 	- [x] Compiling Function Scope
-        - [ ] Cheating Lexical Scope: eval
+	- [ ] Cheating Lexical Scope: eval
 	- [ ] Function Declarations, Function Expressions
 	- [ ] Hoisting
 	- [ ] IIFE Pattern

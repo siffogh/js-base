@@ -20,7 +20,7 @@ When the _Engine_ resolves an _LHS_ or _RHS_, the first question that he needs t
 - **Scope**: a space in the code where a _LHS/RHS_ can be referred to. You can think of scope as a bubble where a variable lives.
 
 <div style="text-align: center;">
-<img src="https://media.giphy.com/media/3og0IwzZ9cryoKNKsE/giphy.gif" style="max-height:400px"/>
+<img src="https://github.com/siffogh/seif-gifs/raw/master/giphy-downsized.gif" style="max-height:400px"/>
 </div>
 
 #### Example of scope resolution

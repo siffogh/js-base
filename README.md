@@ -11,9 +11,9 @@
 	- [x] When does compilation happen and what is the output?
 
 - [ ] Scope
-	- [x] Scope and the JavaScript Compiler
-	- [x] Compiling Function Scope
-	- [ ] Cheating Lexical Scope: eval
+	- [x] Some compiler terminology
+	- [x] Scope explained
+	- [ ] Cheating the Scope
 	- [ ] Function Declarations, Function Expressions
 	- [ ] Hoisting
 	- [ ] IIFE Pattern

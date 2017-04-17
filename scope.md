@@ -1,3 +1,8 @@
+<style>
+.img-container{
+	text-align:center;
+}
+</style>
 ## Scope
 :exclamation: **Note** :exclamation:
 > There are two types of scopes: _dynamic scope_ and _lexical/static_ scope.
@@ -19,9 +24,10 @@ When the _Engine_ resolves an _LHS_ or _RHS_, the first question that he needs t
 
 - **Scope**: a space in the code where a _LHS/RHS_ can be referred to. You can think of scope as a bubble where a variable lives.
 
-<div style="text-align: center;">
+<div class='img-container'>
 <img src="https://github.com/siffogh/seif-gifs/raw/master/giphy-downsized.gif" style="max-height:400px"/>
 </div>
+
 
 #### Example of scope resolution
 

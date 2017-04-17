@@ -1,11 +1,5 @@
-<style>
-.img-container{
-	text-align:center;
-}
-</style>
 ## Scope
-:exclamation: **Note** :exclamation:
-> There are two types of scopes: _dynamic scope_ and _lexical/static_ scope.
+>**Notice** <br> There are two types of scopes: _dynamic scope_ and _lexical/static_ scope.
 JSBase will only focus on static/lexical scope.
 
 ### :blue_book: Some compiler terminology
@@ -24,10 +18,7 @@ When the _Engine_ resolves an _LHS_ or _RHS_, the first question that he needs t
 
 - **Scope**: a space in the code where a _LHS/RHS_ can be referred to. You can think of scope as a bubble where a variable lives.
 
-<div class='img-container'>
-<img src="https://github.com/siffogh/seif-gifs/raw/master/giphy-downsized.gif" style="max-height:400px"/>
-</div>
-
+<img src="https://github.com/siffogh/seif-gifs/raw/master/giphy-downsized.gif"/>
 
 #### Example of scope resolution
 
@@ -44,7 +35,7 @@ function boo (z) {
 ```
 
 #### Compilation: looking for Declarations
-- declaration of var x - Global Scope.
+- declaration of variable x - Global Scope.
 - declaration of function foo - Global Scope.
 - declaration of var y - foo scope.
 - declaration of function boo - Global Scope.
@@ -52,7 +43,8 @@ function boo (z) {
 - declaration of var a - boo scope.
 
 #### Execution
-> We don't look for declarations anymore.
+> **Notice**  <br>
+We don't look for declarations anymore.
 
 - assign 10 to var x in global scope.
 - assign 10 to var y in foo scope.

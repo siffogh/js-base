@@ -13,15 +13,10 @@
 - [ ] Scope
 	- [x] Scope and the JavaScript Compiler
 	- [x] Compiling Function Scope
-	- [ ] Execution of Function Code
-	- [ ] Scope and Execution Example
-	- [ ] Function Declarations, Function Expressions, and Block Scope
-	- [ ] Lexical Scope
-	- [ ] Cheating Lexical Scope: eval
-	- [ ] IIFE Pattern
-	- [ ] Block Scope in ES6
-	- [ ] Dynamic Scope
+        - [ ] Cheating Lexical Scope: eval
+	- [ ] Function Declarations, Function Expressions
 	- [ ] Hoisting
+	- [ ] IIFE Pattern
 	- [ ] this Keyword
 	- [ ] Binding Confusion
 	- [ ] Explicit Binding

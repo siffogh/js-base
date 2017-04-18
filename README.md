@@ -13,7 +13,7 @@
 - [ ] Scope
 	- [x] Some compiler terminology
 	- [x] Scope explained
-	- [ ] Cheating the Scope
+	- [x] Cheating the Scope
 	- [ ] Function Declarations, Function Expressions
 	- [ ] Hoisting
 	- [ ] IIFE Pattern

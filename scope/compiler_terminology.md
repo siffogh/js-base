@@ -1,4 +1,4 @@
-### Some compiler terminology
+# Some compiler terminology
 - **LHS (Left Hand Side):** left hand side of an assignment.
 - **RHS (You guess ...):** Any expression that is not an assignment.  
 eg:-  

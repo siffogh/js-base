@@ -1,4 +1,4 @@
-### Scope explained
+# Scope explained
 
 When the _Engine_ resolves an _LHS_ or _RHS_, the first question that he needs to resolve is: <br> **What is the scope of my _LHS/RHS_ ?** 🤔 In other words, where does my _LHS/RHS_ variable live and can be referred to.
 
@@ -6,7 +6,7 @@ When the _Engine_ resolves an _LHS_ or _RHS_, the first question that he needs t
 
 <img src="https://github.com/siffogh/seif-gifs/raw/master/giphy-downsized.gif"/>
 
-#### Example of scope resolution
+## Example of scope resolution
 
 ```js
 var x = 10;
@@ -22,7 +22,7 @@ function boo (z) {
 }
 ```
 
-#### Compilation: looking for Declarations
+## Compilation: looking for Declarations
 - declaration of variable x - Global Scope.
 - declaration of function foo - Global Scope.
 - declaration of var y - foo scope.
@@ -32,7 +32,7 @@ function boo (z) {
 - compiler looks for LHS a and finds it.
 - compiler looks for LHS m in boo scope but doesn't find so it. Then, the compiler does a lookup for m in the global scope and doesn't find it. If we are not in strict mode, the compiler declares m in global scope. If we are in strict mode, the compiler throws an exception.
 
-#### Execution
+## Execution
 > **Notice**  <br>
 We don't look for declarations anymore.
 

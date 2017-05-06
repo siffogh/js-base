@@ -1,11 +1,11 @@
-### Cheating the Scope
+# Cheating the Scope
 > **Notice:** <br>
 The 2 techniques we are going to see are deprecated.
 
-#### with keyword
+## with keyword
 The _with_ keyword allows to access/modify the values of an object with a simpler syntax. <br>
 
-##### eg:-
+### eg:-
 
 Consider the following object:
 
@@ -33,7 +33,7 @@ with(person){
 }
 ```
 
-##### What just happened ?
+### What just happened ?
 
 <img src="https://github.com/siffogh/seif-gifs/raw/master/wow-gif.gif" style="max-height:200px"/>
 
@@ -41,7 +41,7 @@ When executing the body of _with_, the engine does the following:
 - creates a specific scope attached to the body of person.
 - when assigning/accessing any property, it looks for it in the object first and then if it does not find it, it does lookups to the containing scopes until reaching the global one.
 
-##### The problem
+### The problem
 Although with allows a nice syntax to access/modify properties of an object, it can lead to undesired outcomes and errors. <br>
 Consider the following example:
 
@@ -81,9 +81,9 @@ JavaScript Developer
 **But why?** <br>
 This is due to the lookups that the engine does when assigning values to the variables name and job.
 
-#### eval function
+## eval function
 
-##### eg:-
+### eg:-
 
 ```js
 function foo () {
@@ -93,7 +93,7 @@ function foo () {
 foo();
 ```
 
-##### What just happened ?
+### What just happened ?
 
 <img src="https://github.com/siffogh/seif-gifs/raw/master/wow-gif.gif" style="max-height:200px"/>
 
@@ -109,6 +109,6 @@ function foo () {
 foo();
 ```
 
-##### The problem
+### The problem
 - slower execution because the code is inserted at runtime.
 - might be dangerous if used to evaluate a malicious piece of code.

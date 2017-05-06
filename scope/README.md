@@ -3,9 +3,9 @@
 JSBase will only focus on static/lexical scope.
 
 ## Table of Contents
-- [Some compiler terminology][compiler_terminology.md]
-- [Scope explained][scope_explained.md]
-- [Cheating the Scope][cheating_the_scope.md]
+- [Some compiler terminology](compiler_terminology.md)
+- [Scope explained](scope_explained.md)
+- [Cheating the Scope](cheating_the_scope.md)
 - Function Declarations, Function Expressions
 - Hoisting
 - IIFE Pattern

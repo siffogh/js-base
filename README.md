@@ -2,7 +2,7 @@
 
 ## Table of Contents
 [About the JavaScript Compiler](/compiler.md)  
-[Scope](/scope/scope.md)
+[Scope](/scope)
 
 ## TODO
 - [x] About the JavaScript Compiler

@@ -45,3 +45,11 @@
     }
   )(2,3)
 ```
+
+### Why talking about function declarations and expressions now ?
+
+<img src="https://github.com/siffogh/seif-gifs/raw/master/confused.gif" style="max-height:200px"/>
+
+Well, for two reasons:
+1. **It's important to understand function declarations and expressions** before talking about hoisting.
+2. It's a confusing topic for some people (at least it was for me).

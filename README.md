@@ -14,7 +14,7 @@
 	- [x] Some compiler terminology
 	- [x] Scope explained
 	- [x] Cheating the Scope
-	- [ ] Function Declarations, Function Expressions
+	- [x] Function Declarations, Function Expressions
 	- [ ] Hoisting
 	- [ ] IIFE Pattern
 	- [ ] this Keyword

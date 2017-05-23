@@ -30,6 +30,13 @@
   }
 
 ```
+
+- ES6 Arrow Functions:
+```js
+  const sum = (a,b) => {
+    return a + b;
+  }
+```
 - Inside an _IIFE_ (immediately invoked function expression):
 ```js
   (

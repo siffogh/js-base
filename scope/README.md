@@ -7,7 +7,7 @@ JSBase will only focus on static/lexical scope.
 - [Scope explained](scope_explained.md)
 - [Cheating the Scope](cheating_the_scope.md)
 - [Function Declarations, Function Expressions](function_declaration_expressions.md)
-- Hoisting
+- [Hoisting](hoisting.md)
 - IIFE Pattern
 - this Keyword
 - Binding Confusion

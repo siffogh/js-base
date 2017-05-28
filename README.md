@@ -15,7 +15,7 @@
 	- [x] Scope explained
 	- [x] Cheating the Scope
 	- [x] Function Declarations, Function Expressions
-	- [ ] Hoisting
+	- [x] Hoisting
 	- [ ] IIFE Pattern
 	- [ ] this Keyword
 	- [ ] Binding Confusion
